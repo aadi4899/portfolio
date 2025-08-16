@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/png" href="assest/favicon.png" />
+    <title>
+      aaditsynkc - Freelance Web Developer & Brand Designer | Custom Websites
+      for Startups - India
+    </title>
+
+    <meta
+      name="description"
+      content="Professional freelance web developer specializing in custom websites and branding for startups. Affordable, quality web solutions for small businesses across India."
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Preloader -->
+    <!-- <div class="preloader" id="preloader">
+        <div class="word-container" id="wordContainer">
+            <div class="word">Innovate</div>
+        </div>
+    </div> -->
+
+    <div class="space-bg">
+      <div class="grid-overlay"></div>
+      <div class="tech-particles" id="particles"></div>
+    </div>
+
+    <!-- Header -->
+    <header>
+      <div class="header-content">
+        <div class="logo">
+          <img src="/assest/logo-white.png" alt="aaditsynkc-logo" />
+        </div>
+        <div class="nav-container">
+          <nav>
+            <ul>
+              <li><a href="#home">Home</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#projectsContainerH">Projects</a></li>
+              <li><a href="#skills">Skills</a></li>
+              <li><a href="#services">Services</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </nav>
+
+          <button class="mobile-menu" id="mobileMenu">☰</button>
+        </div>
+        <button class="theme-toggle" id="themeToggle">
+          <span id="themeIcon">🌙</span>
+        </button>
+      </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+      <div class="tech-orb"></div>
+
+      <div class="hero-content">
+        <h1 class="hero-title fade-in-up">
+          Transforming Businesses Through<br />
+          <span class="gradient-text">Technology & Custom Web Development</span>
+        </h1>
+
+        <div class="hero-subtitle fade-in-up">
+          Specializing in custom web app development for small business, startup
+          branding, and scalable software solutions that drive real growth
+        </div>
+
+        <div class="hero-actions fade-in-up">
+          <a href="https://www.linkedin.com/in/aaditya-singh-b1140b1b6/" target="_blank" class="connect-btn">
+            Let's Connect<span
+              ><img
+                src="assest/logo/linkedin-icon.png"
+                alt="linkedin-icon"
+                width="32"
+                height="32"
+            /></span>
+          </a>
+          <a href="mailto:aadityat5994@gmail.com" class="email-link">
+            <span>✉</span>
+            Hire Me
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- about  -->
+    <section class="abt-port-section" id="about">
+      <div class="abt-port-container">
+        <div class="abt-port-content">
+          <div class="abt-port-label">MORE ABOUT ME</div>
+          <h2 class="abt-port-title">
+            I'm Aaditya, a<br />
+            Creative <span class="abt-port-highlight">Engineer</span>
+          </h2>
+
+          <p class="abt-port-description">
+            I'm Aaditya Singh, a React JS freelancer and full-stack developer
+            with 3 years of corporate experience. Computer Science graduate
+            passionate about creating digital solutions that work.
+          </p>
+
+          <p class="abt-port-description">
+            I help startups and small businesses with custom web app
+            development, startup branding packages, and custom CRM software
+            solutions. My expertise includes React, Next.js, Node.js, and Python
+            Django web development.
+          </p>
+
+          <p class="abt-port-description">
+            From UI/UX design for fintech applications to progressive web apps
+            and API development services - I build experiences that make a
+            difference.
+          </p>
+
+          <p class="abt-port-quote">
+            Ready to transform your idea into reality?
+          </p>
+
+          <div class="abt-port-social">
+            <a href="https://www.linkedin.com/in/aaditya-singh-b1140b1b6/" target="_blank" class="abt-port-social-link"
+              ><img src="/assest/logo/linkedin-icon.png" alt="linkedin-icon"
+            /></a>
+          </div>
+        </div>
+
+        <div class="abt-port-carousel-container">
+          <div class="abt-port-carousel" id="carousel">
+            <div class="abt-port-slide abt-port-active">
+              <img src="/assest/code.webp" alt="Workspace Setup" />
+            </div>
+            <div class="abt-port-slide abt-port-next">
+              <img src="/assest/gym.webp" alt="Weight lifting" />
+            </div>
+            <div class="abt-port-slide abt-port-hidden">
+              <img src="/assest/travel1.jpg" alt="Traveling" />
+            </div>
+          </div>
+
+          <div class="abt-port-caption abt-port-active" id="caption">
+            I Code
+          </div>
+
+          <div class="abt-port-indicators">
+            <div
+              class="abt-port-indicator abt-port-active"
+              onclick="goToSlide(0)"
+            ></div>
+            <div class="abt-port-indicator" onclick="goToSlide(1)"></div>
+            <div class="abt-port-indicator" onclick="goToSlide(2)"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- about  -->
+
+    <div class="heading-section" id="projectsContainerH">
+      <div class="subheading">CASE STUDIES</div>
+      <div class="main-heading">Featured<span class="gradient">works</span></div>
+    </div>
+
+    <div class="container" id="projectsContainer"></div>
+    <button class="show-more-btn" id="showMoreBtn">
+      See more projects <span class="ar">→</span>
+    </button>
+
+    <section class="skill-section-container" id="skills">
+      <div class="skill-section-content">
+        <div class="skill-section-label">MY SKILLS</div>
+        <h2 class="skill-section-title">
+          The Secret <span class="skill-section-highlight">Sauce</span>
+        </h2>
+
+        <div class="skill-section-badges-grid">
+          <div class="skill-section-badge" style="--delay: 1">
+            <img
+              src="/assest//logo/react-icon.png"
+              alt="React.js"
+              class="skill-section-badge-icon"
+            />
+            <span class="skill-section-badge-name">React.js</span>
+          </div>
+
+          <div class="skill-section-badge" style="--delay: 2">
+            <img
+              src="/assest/logo/ui-ux-icon.png"
+              alt="UI/UX"
+              class="skill-section-badge-icon"
+            />
+            <span class="skill-section-badge-name">UI/UX</span>
+          </div>
+
+          <div class="skill-section-badge" style="--delay: 3">
+            <img
+              src="/assest/logo/wordpress-icon.png"
+              alt="WordPress"
+              class="skill-section-badge-icon"
+            />
+            <span class="skill-section-badge-name">WordPress</span>
+          </div>
+
+          <div class="skill-section-badge" style="--delay: 4">
+            <img
+              src="/assest/logo/css-icon.png"
+              alt="CSS"
+              class="skill-section-badge-icon"
+            />
+            <span class="skill-section-badge-name">CSS</span>
+          </div>
+
+          <div class="skill-section-badge" style="--delay: 5">
+            <img
+              src="/assest/logo/shopify-icon.png"
+              alt="Shopify"
+              class="skill-section-badge-icon"
+            />
+            <span class="skill-section-badge-name">Shopify</span>
+          </div>
+
+          <div class="skill-section-badge" style="--delay: 6">
+            <img
+              src="/assest/logo/php-icon.png"
+              alt="PHP"
+              class="skill-section-badge-icon"
+            />
+            <span class="skill-section-badge-name">PHP</span>
+          </div>
+
+          <div class="skill-section-badge" style="--delay: 7">
+            <img
+              src="/assest/logo/html-icon.png"
+              alt="HTML"
+              class="skill-section-badge-icon"
+            />
+            <span class="skill-section-badge-name">HTML</span>
+          </div>
+
+          <div class="skill-section-badge" style="--delay: 8">
+            <img
+              src="/assest/logo/js-icon.png"
+              alt="JavaScript"
+              class="skill-section-badge-icon"
+            />
+            <span class="skill-section-badge-name">JavaScript</span>
+          </div>
+
+          <div class="skill-section-badge" style="--delay: 9">
+            <img
+              src="/assest/logo/github-icon.png"
+              alt="Github"
+              class="skill-section-badge-icon"
+            />
+            <span class="skill-section-badge-name">Github</span>
+          </div>
+
+          <div class="skill-section-badge" style="--delay: 10">
+            <img
+              src="/assest/logo/git-icon.png"
+              alt="GIT"
+              class="skill-section-badge-icon"
+            />
+            <span class="skill-section-badge-name">GIT</span>
+          </div>
+
+          <div class="skill-section-badge" style="--delay: 11">
+            <img
+              src="/assest/logo/bootstrap-icon.png"
+              alt="Bootstrap"
+              class="skill-section-badge-icon"
+            />
+            <span class="skill-section-badge-name">Bootstrap</span>
+          </div>
+
+          <div class="skill-section-badge" style="--delay: 12">
+            <img
+              src="/assest/logo/mysql-icon.png"
+              alt="MySQL"
+              class="skill-section-badge-icon"
+            />
+            <span class="skill-section-badge-name">MySQL</span>
+          </div>
+
+          <div class="skill-section-badge" style="--delay: 13">
+            <img
+              src="/assest/logo/db-icon.png"
+              alt="Database"
+              class="skill-section-badge-icon"
+            />
+            <span class="skill-section-badge-name">Database</span>
+          </div>
+
+          <div class="skill-section-badge" style="--delay: 14">
+            <img
+              src="/assest/logo/node-icon.png"
+              alt="Next.js"
+              class="skill-section-badge-icon"
+            />
+            <span class="skill-section-badge-name">Node.js</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="heading-section" id="services">
+      <div class="main-heading">
+        Curated<span class="gradient"> Services</span>
+      </div>
+    </div>
+
+    <section class="serv-feature-section">
+      <div class="serv-feature-container">
+        <div class="serv-feature-item">
+          <div class="serv-feature-icon">
+            <img
+              src="/assest/logo/ui-ux-icon.png"
+              alt="ui-ux-icon"
+              width="32"
+              height="32"
+            />
+          </div>
+          <h3 class="serv-feature-title">UI/UX Design</h3>
+          <p class="serv-feature-desc">
+            I design intuitive, user-friendly UI/UX for fintech and SaaS,
+            creating engaging experiences that delight and convert users.
+          </p>
+        </div>
+
+        <div class="serv-feature-item">
+          <div class="serv-feature-icon">
+            <img
+              src="/assest/logo/shopify-icon.png"
+              alt="shopify-icon"
+              width="32"
+              height="32"
+            />
+          </div>
+          <h3 class="serv-feature-title">Shopify</h3>
+          <p class="serv-feature-desc">
+            Build optimized Shopify stores for startups and small businesses,
+            designed for speed, sales, and seamless user experience.
+          </p>
+        </div>
+
+        <div class="serv-feature-item">
+          <div class="serv-feature-icon">
+            <img
+              src="/assest/logo/wordpress-icon.png"
+              alt="wordpress-icon"
+              width="32"
+              height="32"
+            />
+          </div>
+          <h3 class="serv-feature-title">WordPress</h3>
+          <p class="serv-feature-desc">
+            Migrate, customize, and optimize WordPress sites for small
+            businesses and startups, ensuring speed, security, and seamless
+            performance.
+          </p>
+        </div>
+
+        <div class="serv-feature-item">
+          <div class="serv-feature-icon">
+            <img
+              src="/assest/logo/db-icon.png"
+              alt="db-icon"
+              width="32"
+              height="32"
+            />
+          </div>
+          <h3 class="serv-feature-title">CMS Development</h3>
+          <p class="serv-feature-desc">
+            I can create custom CMS solutions that make managing your content
+            simple, flexible, and stress-free for your team.
+          </p>
+        </div>
+
+        <div class="serv-feature-item">
+          <div class="serv-feature-icon">
+            <img
+              src="/assest/logo/bootstrap-icon.png"
+              alt="bootstrap-icon"
+              width="32"
+              height="32"
+            />
+          </div>
+          <h3 class="serv-feature-title">SEO</h3>
+          <p class="serv-feature-desc">
+            I can help your website rank higher in search results with practical,
+            long-term SEO strategies that actually work
+          </p>
+        </div>
+
+        <div class="serv-feature-item">
+          <div class="serv-feature-icon">
+            <img
+              src="/assest/logo/html-icon.png"
+              alt="html-icon"
+              width="32"
+              height="32"
+            />
+          </div>
+          <h3 class="serv-feature-title">Web Development</h3>
+          <p class="serv-feature-desc">
+            I can build robust web apps using PHP and ReactJS, creating fast,
+            reliable, and user-friendly experiences for your business.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="serv-section-cta" id="contact">
+      <div class="serv-section-container">
+        <h2 class="serv-section-heading">
+          FROM CONCEPT TO <span>CREATION</span><br />
+          LET'S MAKE IT <span class="highlight">HAPPEN!</span>
+        </h2>
+
+        <div class="serv-section-buttons">
+          <a href="mailto:aadityat5994@gmail.com" class="serv-section-btn-primary">
+            Get In Touch <span>➜</span>
+          </a>
+        </div>
+
+        <p class="serv-section-availability">
+          I'm available for <strong>full-time roles</strong> &
+          <strong>freelance projects</strong>.
+        </p>
+
+        <p class="serv-section-subtext">
+          I craft dynamic, branded web applications that deliver seamless user
+          experiences, blending modern design with high-performance
+          functionality.
+        </p>
+
+        <a href="https://www.linkedin.com/in/aaditya-singh-b1140b1b6/" target="_blank" class="connect-btn connect-btns">
+          Hit connect — let’s talk!<span
+            ><img
+              src="assest/logo/linkedin-icon.png"
+              alt="linkedin-icon"
+              width="32"
+              height="32"
+          /></span>
+        </a>
+      </div>
+    </section>
+
+    <footer class="foot-section-footer">
+      <div class="foot-section-inner">
+        <div class="foot-section-left">
+          <div class="foot-section-logo">
+            <img src="/assest/logo-white.png" alt="aaditsynkc-logo" />
+          </div>
+          <p class="foot-section-desc">
+            I’m Aaditya Singh – a full-stack developer, freelancer & problem
+            solver. Thanks for checking out my site!
+          </p>
+        </div>
+
+        <div class="foot-section-links">
+          <div class="foot-section-col">
+            <h3>General</h3>
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#projectsContainerH">Projects</a>
+          </div>
+          <div class="foot-section-col">
+            <h3>Links</h3>
+            <a href="#service">Services</a>
+            <a href="#skills">Skills</a>
+          </div>
+          <div class="foot-section-col">
+            <h3>More</h3>
+            <a href="/">Blog (Coming soon)</a>
+            <a href="#contact">Contact</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="foot-section-bottom">
+        <div class="foot-section-bottom-left">
+          <p>© 2025 All rights reserved</p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
