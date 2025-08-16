@@ -636,7 +636,7 @@
           width: 90%;
         }
         .hero-title {
-          width: 400px;
+          width: auto;
           margin: 10% auto;
         }
 
@@ -692,14 +692,14 @@
           position: initial;
         }
         .theme-toggle {
-          right: 12%;
+          right: 15%;
         }
         .cta-button {
           padding: 0.6rem 1.5rem;
         }
 
         .connect-btn {
-          padding: 1rem 2rem;
+          padding: 0.2em 1.5rem;
         }
       }
 
@@ -2001,5 +2001,6 @@
         border-radius: 70px;
         padding: 1px 10px;
       }
+
 
       /* cta  */
