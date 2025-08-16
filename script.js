@@ -127,7 +127,7 @@
       const projects = [
         {
           text: "A sleek eCommerce experience for adjustable office and home tables, built from the ground up on Shopify.",
-          image: "/assest/desko.png",
+          image: "assest/desko.png",
           title: "Desko Homes ",
           desc: "From theme selection and requirement gathering to custom business logic and development, every detail was crafted for performance and usability. Integrated third-party apps, a 3D product viewer for interactive shopping, and smooth checkout flows deliver a premium user experience. The result is a fast, visually compelling store that’s ready to drive sales and support business growth.",
           features: [
@@ -138,15 +138,15 @@
             "Implemented a 3D product viewer and optimized performance for speed and conversions.",
           ],
           tech: [
-            "/assest/logo/shopify-icon.png",
-            "/assest/logo/html-icon.png",
-            "/assest/logo/css-icon.png",
-            "/assest/logo/js-icon.png",
+            "assest/logo/shopify-icon.png",
+            "assest/logo/html-icon.png",
+            "assest/logo/css-icon.png",
+            "assest/logo/js-icon.png",
           ],
         },
         {
           text: "Optimizing and enhancing ThreadVibe Living’s high-traffic Shopify store for better performance and cost efficiency.",
-          image: "/assest/thread.png",
+          image: "assest/thread.png",
           title: "Threadvibeliving",
           desc: "ThreadVibe Living, a leading name in sustainable Indian home décor furniture with 10K+ monthly visitors, partnered with us to refine their existing Shopify store. We replaced several paid apps with custom-built solutions, reducing ongoing costs without compromising functionality. Ongoing collaboration ensures continuous optimization, feature upgrades, and a smooth shopping experience for their growing customer base.",
           features: [
@@ -157,15 +157,15 @@
             "Ongoing partnership for adding new features and maintaining store quality.",
           ],
           tech: [
-            "/assest/logo/shopify-icon.png",
-            "/assest/logo/html-icon.png",
-            "/assest/logo/css-icon.png",
-            "/assest/logo/js-icon.png",
+            "assest/logo/shopify-icon.png",
+            "assest/logo/html-icon.png",
+            "assest/logo/css-icon.png",
+            "assest/logo/js-icon.png",
           ],
         },
         {
           text: "Custom-built medicine finder and delivery platform solving real-world accessibility challenges.",
-          image: "/assest/medicine.png",
+          image: "assest/medicine.png",
           title: "Custom Softwre          ",
           desc: "We developed a fully custom web application to bridge the gap between customers and local pharmacists, enabling quick medicine search and doorstep delivery. Built using HTML, CSS, JavaScript, and Firebase, the platform uses pure CRUD operations for fast, secure, and reliable data management. It streamlines requests, ensures real-time availability updates, and simplifies communication between users and pharmacies.",
           features: [
@@ -176,16 +176,16 @@
             "Integrated Firebase for secure data storage, authentication, and live updates.",
           ],
           tech: [
-            "/assest/logo/html-icon.png",
-            "/assest/logo/css-icon.png",
-            "/assest/logo/bootstrap-icon.png",
-            "/assest/logo/js-icon.png",
-            "/assest/logo/mysql-icon.png",
+            "assest/logo/html-icon.png",
+            "assest/logo/css-icon.png",
+            "assest/logo/bootstrap-icon.png",
+            "assest/logo/js-icon.png",
+            "assest/logo/mysql-icon.png",
           ],
         },
         {
           text: "Developed a custom CMS platform for managing and scaling a multi-branch food delivery business.",
-          image: "/assest/food.webp",
+          image: "assest/food.webp",
           title: "Multi Branch Operations Manager",
           desc: "We built a tailored content management system that enables restaurant owners to effortlessly update menus, manage orders, and track performance across multiple outlets in real-time. The system supports role-based access, dynamic content updates, and analytics dashboards, giving business owners full control without technical expertise. Optimized for speed, scalability, and mobile access, it empowers food businesses to adapt quickly and serve customers better.",
           features: [
@@ -196,11 +196,11 @@
             "Ensured scalability to support multiple branches and high order volumes.",
           ],
           tech: [
-            "/assest/logo/html-icon.png",
-            "/assest/logo/css-icon.png",
-            "/assest/logo/wordpress-icon.png",
-            "/assest/logo/mysql-icon.png",
-            "/assest/logo/js-icon.png",
+            "assest/logo/html-icon.png",
+            "assest/logo/css-icon.png",
+            "assest/logo/wordpress-icon.png",
+            "assest/logo/mysql-icon.png",
+            "assest/logo/js-icon.png",
           ],
         },
       ];
@@ -566,3 +566,4 @@
         `;
       document.head.appendChild(style);
     
+
