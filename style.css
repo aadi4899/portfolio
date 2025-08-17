@@ -902,7 +902,7 @@
           padding-left: 0;
         }
         .project-card.reverse {
-          flex-direction: column-reverse;
+          flex-direction: column;
         }
         .left img {
           transform: rotate(0);
@@ -2004,3 +2004,4 @@
 
 
       /* cta  */
+
